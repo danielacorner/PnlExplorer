@@ -1,0 +1,608 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Reports/P&L Explorer P&L Explorer 1`] = `
+<div>
+  <div
+    className="PnlExplorer__PnlExplorerStyles-sc-137l9i2-0 bxdkNM"
+  >
+    <div
+      className="PnlExplorer__CalendarStyles-sc-137l9i2-1 loulqA"
+      style={
+        Object {
+          "width": "100%",
+        }
+      }
+    >
+      Calendar
+      <div
+        className="PnlExplorer__RowStyles-sc-137l9i2-17 hVjBnA"
+      >
+        <div
+          className="PnlExplorer__CalendarStyles-sc-137l9i2-1 loulqA"
+          style={
+            Object {
+              "width": "93%",
+            }
+          }
+        >
+          <div
+            className="PnlExplorer__ColumnTitleStyles-sc-137l9i2-16 gOBgwU"
+          >
+            Collectable
+          </div>
+          <div
+            className="PnlExplorer__RowStyles-sc-137l9i2-17 hVjBnA"
+          >
+            <div
+              className="PnlExplorer__CalendarStyles-sc-137l9i2-1 loulqA"
+              style={
+                Object {
+                  "width": "93%",
+                }
+              }
+            >
+              <div
+                className="PnlExplorer__ColumnTitleStyles-sc-137l9i2-16 gOBgwU"
+              >
+                Collected
+              </div>
+              <div
+                className="PnlExplorer__RowStyles-sc-137l9i2-17 hVjBnA"
+              >
+                <div
+                  className="PnlExplorer__ProducingStyles-sc-137l9i2-2 hexNhE"
+                  style={
+                    Object {
+                      "width": "55%",
+                    }
+                  }
+                >
+                  <div
+                    className="PnlExplorer__ColumnTitleStyles-sc-137l9i2-16 gOBgwU"
+                  >
+                    Producing
+                  </div>
+                  <div
+                    className="PnlExplorer__RowStyles-sc-137l9i2-17 hVjBnA"
+                  >
+                    <div
+                      className="PnlExplorer__RunningStyles-sc-137l9i2-9 hMhduX"
+                      style={
+                        Object {
+                          "width": "65%",
+                        }
+                      }
+                    >
+                      <div
+                        className="PnlExplorer__ColumnTitleStyles-sc-137l9i2-16 gOBgwU"
+                      >
+                        Running
+                      </div>
+                      <div
+                        className="PnlExplorer__RowStyles-sc-137l9i2-17 hVjBnA"
+                      >
+                        <div
+                          className="PnlExplorer__RunningAtRateStyles-sc-137l9i2-11 gtyetE"
+                          style={
+                            Object {
+                              "width": "35%",
+                            }
+                          }
+                        >
+                          Running at Rate
+                        </div>
+                        <div
+                          className="PnlExplorer__RunningFastStyles-sc-137l9i2-12 cOxXAj"
+                          style={
+                            Object {
+                              "width": "25%",
+                            }
+                          }
+                        >
+                          Running Fast
+                        </div>
+                        <div
+                          className="PnlExplorer__RunningSlowStyles-sc-137l9i2-13 esXgGM"
+                          style={
+                            Object {
+                              "width": "40%",
+                            }
+                          }
+                        >
+                          Running Slow
+                        </div>
+                      </div>
+                      <div
+                        className="PnlExplorer__RowStyles-sc-137l9i2-17 hVjBnA"
+                      >
+                        <div
+                          className="PnlExplorer__RunningAtRateStyles-sc-137l9i2-11 gtyetE"
+                          style={
+                            Object {
+                              "width": "40%",
+                            }
+                          }
+                        >
+                          Effective Running Time
+                        </div>
+                        <div
+                          className="PnlExplorer__RunningSlowStyles-sc-137l9i2-13 esXgGM"
+                          style={
+                            Object {
+                              "width": "60%",
+                            }
+                          }
+                        >
+                          <div
+                            className="PnlExplorer__ColumnTitleStyles-sc-137l9i2-16 gOBgwU"
+                          >
+                            Slow Loss Time
+                          </div>
+                          <div
+                            className="PnlExplorer__RowStyles-sc-137l9i2-17 hVjBnA"
+                          >
+                            <div
+                              className="PnlExplorer__SpeedGainStyles-sc-137l9i2-14 icrkHJ"
+                              style={
+                                Object {
+                                  "width": "45%",
+                                }
+                              }
+                            >
+                              <div
+                                className="PnlExplorer__ColumnTitleStyles-sc-137l9i2-16 gOBgwU"
+                              >
+                                Speed Gain Time
+                              </div>
+                              <div
+                                className="PnlExplorer__RunningAtRateStyles-sc-137l9i2-11 gtyetE"
+                                style={
+                                  Object {
+                                    "flexGrow": 1,
+                                  }
+                                }
+                              />
+                            </div>
+                            <div
+                              className="PnlExplorer__RunningSlowStyles-sc-137l9i2-13 esXgGM"
+                              style={
+                                Object {
+                                  "width": "55%",
+                                }
+                              }
+                            >
+                              <div
+                                style={
+                                  Object {
+                                    "height": "30px",
+                                  }
+                                }
+                              >
+                                Slowdown Loss Time
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="PnlExplorer__MinorStopStyles-sc-137l9i2-10 bkngPF"
+                      style={
+                        Object {
+                          "width": "35%",
+                        }
+                      }
+                    >
+                      Minor Stop
+                    </div>
+                  </div>
+                  <div
+                    className="PnlExplorer__RowStyles-sc-137l9i2-17 hVjBnA"
+                  >
+                    <div
+                      className="PnlExplorer__RunningAtRateStyles-sc-137l9i2-11 gtyetE"
+                      style={
+                        Object {
+                          "width": "20%",
+                        }
+                      }
+                    >
+                      Effective Producing Time
+                    </div>
+                    <div
+                      className="PnlExplorer__QualityLossStyles-sc-137l9i2-15 fKJUaG"
+                      style={
+                        Object {
+                          "width": "23.549999999999997%",
+                        }
+                      }
+                    >
+                      <div
+                        className="PnlExplorer__ColumnTitleStyles-sc-137l9i2-16 gOBgwU"
+                      >
+                        Effective Quality Loss Time
+                      </div>
+                      <div
+                        className="PnlExplorer__RowStyles-sc-137l9i2-17 hVjBnA"
+                      >
+                        <div
+                          className="PnlExplorer__QualityLossStyles-sc-137l9i2-15 fKJUaG"
+                          style={
+                            Object {
+                              "width": "50%",
+                            }
+                          }
+                        >
+                          Effective Scrap Time
+                        </div>
+                        <div
+                          className="PnlExplorer__QualityLossStyles-sc-137l9i2-15 fKJUaG"
+                          style={
+                            Object {
+                              "width": "50%",
+                            }
+                          }
+                        >
+                          Effective Rework Time
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="PnlExplorer__RunningSlowStyles-sc-137l9i2-13 esXgGM"
+                      style={
+                        Object {
+                          "width": "56.45%",
+                        }
+                      }
+                    >
+                      Effective Speed Loss
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="PnlExplorer__DowntimeStyles-sc-137l9i2-3 jBdmYF"
+                  style={
+                    Object {
+                      "width": "37%",
+                    }
+                  }
+                >
+                  <div
+                    className="PnlExplorer__ColumnTitleStyles-sc-137l9i2-16 gOBgwU"
+                  >
+                    Downtime
+                  </div>
+                  <div
+                    className="PnlExplorer__RowStyles-sc-137l9i2-17 hVjBnA"
+                  >
+                    <div
+                      className="PnlExplorer__PlannedStyles-sc-137l9i2-4 iicSNq"
+                      style={
+                        Object {
+                          "width": "45%",
+                        }
+                      }
+                    >
+                      Planned
+                    </div>
+                    <div
+                      className="PnlExplorer__WaitingStyles-sc-137l9i2-5 eTtfgL"
+                      style={
+                        Object {
+                          "width": "25%",
+                        }
+                      }
+                    >
+                      Waiting
+                    </div>
+                    <div
+                      className="PnlExplorer__UnplannedStyles-sc-137l9i2-6 kTwWzZ"
+                      style={
+                        Object {
+                          "width": "15%",
+                        }
+                      }
+                    >
+                      Unplanned
+                    </div>
+                    <div
+                      className="PnlExplorer__UnknownStyles-sc-137l9i2-7 iBAKZD"
+                      style={
+                        Object {
+                          "width": "15%",
+                        }
+                      }
+                    >
+                      Unknown
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="PnlExplorer__NotScheduledStyles-sc-137l9i2-8 eeuVbM"
+                  style={
+                    Object {
+                      "width": "8%",
+                    }
+                  }
+                >
+                  Not Scheduled
+                </div>
+              </div>
+            </div>
+            <div
+              className="PnlExplorer__CalendarStyles-sc-137l9i2-1 loulqA"
+              style={
+                Object {
+                  "width": "7%",
+                }
+              }
+            >
+              Uncollected
+            </div>
+          </div>
+        </div>
+        <div
+          className="PnlExplorer__CalendarStyles-sc-137l9i2-1 loulqA"
+          style={
+            Object {
+              "width": "7%",
+            }
+          }
+        >
+          Uncollectable
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Reports/P&L Explorer/Components Producing Explorer 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "margin": "auto",
+        "width": "95%",
+      }
+    }
+  >
+    <div
+      className="ProducingExplorer__ProducingStyles-sc-14a6vfy-1 ikakCo"
+      style={
+        Object {
+          "width": "100%",
+        }
+      }
+    >
+      <div
+        className="ProducingExplorer__ColumnTitleStyles-sc-14a6vfy-8 ijXmyQ"
+      >
+        Producing
+      </div>
+      <div
+        className="ProducingExplorer__RowStyles-sc-14a6vfy-9 jnpnWO"
+      >
+        <div
+          className="ProducingExplorer__RunningStyles-sc-14a6vfy-2 hBArWk"
+          style={
+            Object {
+              "width": "70%",
+            }
+          }
+        >
+          <div
+            className="ProducingExplorer__ColumnTitleStyles-sc-14a6vfy-8 ijXmyQ"
+          >
+            Running
+          </div>
+          <div
+            className="ProducingExplorer__RowStyles-sc-14a6vfy-9 jnpnWO"
+          >
+            <div
+              className="ProducingExplorer__RunningAtRateStyles-sc-14a6vfy-4 iDhKOI"
+              style={
+                Object {
+                  "width": "42.857142857142854%",
+                }
+              }
+            >
+              Running at Rate
+            </div>
+            <div
+              className="ProducingExplorer__RunningFastStyles-sc-14a6vfy-5 kFvbEz"
+              style={
+                Object {
+                  "width": "28.571428571428573%",
+                }
+              }
+            >
+              Running Fast
+            </div>
+            <div
+              className="ProducingExplorer__RunningSlowStyles-sc-14a6vfy-6 kgYyXu"
+              style={
+                Object {
+                  "width": "28.571428571428573%",
+                }
+              }
+            >
+              Running Slow
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "position": "relative",
+                "width": "100%",
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "bottom": "0px",
+                  "position": "absolute",
+                  "right": "0px",
+                  "width": "75%",
+                }
+              }
+            >
+              <div
+                style={
+                  Object {
+                    "width": "42.857142857142854%",
+                  }
+                }
+              >
+                <div
+                  className="ProducingExplorer__ColumnTitleStyles-sc-14a6vfy-8 ijXmyQ"
+                >
+                  Effective Speed Gain Time
+                </div>
+                <div
+                  className="ProducingExplorer__ArrowStyles-sc-14a6vfy-0 jBqrrk"
+                >
+                  <div
+                    className="line"
+                  />
+                  <div
+                    className="point right"
+                  />
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "width": "100%",
+                  }
+                }
+              >
+                <div
+                  className="ProducingExplorer__ArrowStyles-sc-14a6vfy-0 jBqrrk"
+                >
+                  <div
+                    className="point left"
+                  />
+                  <div
+                    className="line"
+                  />
+                </div>
+                <div
+                  className="ProducingExplorer__ColumnTitleStyles-sc-14a6vfy-8 ijXmyQ"
+                >
+                  Effective Slow Loss Time
+                </div>
+              </div>
+            </div>
+            <div
+              className="ProducingExplorer__RowStyles-sc-14a6vfy-9 jnpnWO"
+            >
+              <div
+                className="ProducingExplorer__RunningAtRateStyles-sc-14a6vfy-4 iDhKOI"
+                style={
+                  Object {
+                    "width": "57.142857142857146%",
+                  }
+                }
+              >
+                Effective Running Time
+              </div>
+              <div
+                className="ProducingExplorer__RunningSlowStyles-sc-14a6vfy-6 kgYyXu"
+                style={
+                  Object {
+                    "width": "42.857142857142854%",
+                  }
+                }
+              >
+                <div
+                  style={
+                    Object {
+                      "height": "120px",
+                    }
+                  }
+                >
+                  Effective Slowdown Loss Time
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="ProducingExplorer__MinorStopStyles-sc-14a6vfy-3 fyPfST"
+          style={
+            Object {
+              "width": "30%",
+            }
+          }
+        >
+          Minor Stop
+        </div>
+      </div>
+      <div
+        className="ProducingExplorer__RowStyles-sc-14a6vfy-9 jnpnWO"
+      >
+        <div
+          className="ProducingExplorer__RunningAtRateStyles-sc-14a6vfy-4 iDhKOI"
+          style={
+            Object {
+              "width": "20%",
+            }
+          }
+        >
+          Effective Producing Time
+        </div>
+        <div
+          className="ProducingExplorer__QualityLossStyles-sc-14a6vfy-7 rCnLt"
+          style={
+            Object {
+              "width": "20%",
+            }
+          }
+        >
+          <div
+            className="ProducingExplorer__ColumnTitleStyles-sc-14a6vfy-8 ijXmyQ"
+          >
+            Effective Quality Loss Time
+          </div>
+          <div
+            className="ProducingExplorer__RowStyles-sc-14a6vfy-9 jnpnWO"
+          >
+            <div
+              className="ProducingExplorer__QualityLossStyles-sc-14a6vfy-7 rCnLt"
+              style={
+                Object {
+                  "width": "50%",
+                }
+              }
+            >
+              Effective Scrap Time
+            </div>
+            <div
+              className="ProducingExplorer__QualityLossStyles-sc-14a6vfy-7 rCnLt"
+              style={
+                Object {
+                  "width": "50%",
+                }
+              }
+            >
+              Effective Rework Time
+            </div>
+          </div>
+        </div>
+        <div
+          className="ProducingExplorer__RunningSlowStyles-sc-14a6vfy-6 kgYyXu"
+          style={
+            Object {
+              "width": "60%",
+            }
+          }
+        >
+          Effective Speed Loss
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
