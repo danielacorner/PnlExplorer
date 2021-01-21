@@ -145,115 +145,140 @@ export default function PnlExplorer() {
                     style={{ width: `${producingWidth + downtimeWidth}%` }}
                   >
                     <ColumnTitleStyles>Production</ColumnTitleStyles>
-                  </ProductionStyles>
-                </RowStyles>
-                <RowStyles>
-                  <ProducingStyles style={{ width: `${producingWidth}%` }}>
-                    <ColumnTitleStyles>Producing</ColumnTitleStyles>
-
                     <RowStyles>
-                      <RunningStyles style={{ width: `${runningWidth}%` }}>
-                        <ColumnTitleStyles>Running</ColumnTitleStyles>
+                      <ProducingStyles
+                        style={{
+                          width: `${
+                            (producingWidth * 100) / (100 - notScheduledWidth)
+                          }%`,
+                        }}
+                      >
+                        <ColumnTitleStyles>Producing</ColumnTitleStyles>
+
                         <RowStyles>
-                          <RunningAtRateStyles
-                            style={{ width: `${runningAtRateWidth}%` }}
-                          >
-                            Running at Rate
-                          </RunningAtRateStyles>
-                          <RunningFastStyles
-                            style={{ width: `${runningFastWidth}%` }}
-                          >
-                            Running Fast
-                          </RunningFastStyles>
-                          <RunningSlowStyles
-                            style={{ width: `${runningSlowWidth}%` }}
-                          >
-                            Running Slow
-                          </RunningSlowStyles>
-                        </RowStyles>
-                        <RowStyles>
-                          <RunningAtRateStyles
-                            style={{ width: `${effectiveRunningTimeWidth}%` }}
-                          >
-                            Effective Running Time
-                          </RunningAtRateStyles>
-                          <RunningSlowStyles
-                            style={{ width: `${slowLossTimeWidth}%` }}
-                          >
-                            <ColumnTitleStyles>
-                              Slow Loss Time
-                            </ColumnTitleStyles>
+                          <RunningStyles style={{ width: `${runningWidth}%` }}>
+                            <ColumnTitleStyles>Running</ColumnTitleStyles>
                             <RowStyles>
-                              <SpeedGainStyles
-                                style={{ width: `${speedGainTimeWidth}%` }}
+                              <RunningAtRateStyles
+                                style={{ width: `${runningAtRateWidth}%` }}
                               >
-                                Speed Gain Time
-                              </SpeedGainStyles>
+                                Running at Rate
+                              </RunningAtRateStyles>
+                              <RunningFastStyles
+                                style={{ width: `${runningFastWidth}%` }}
+                              >
+                                Running Fast
+                              </RunningFastStyles>
                               <RunningSlowStyles
-                                style={{ width: `${slowdownLossTimeWidth}%` }}
+                                style={{ width: `${runningSlowWidth}%` }}
                               >
-                                Slowdown Loss Time
+                                Running Slow
                               </RunningSlowStyles>
                             </RowStyles>
-                          </RunningSlowStyles>
-                          {/* <RunningFastStyles style={{ width: `${speedGainTimeWidth}%` }}>Speed Gain Time</RunningFastStyles>
+                            <RowStyles>
+                              <RunningAtRateStyles
+                                style={{
+                                  width: `${effectiveRunningTimeWidth}%`,
+                                }}
+                              >
+                                Effective Running Time
+                              </RunningAtRateStyles>
+                              <RunningSlowStyles
+                                style={{ width: `${slowLossTimeWidth}%` }}
+                              >
+                                <ColumnTitleStyles>
+                                  Slow Loss Time
+                                </ColumnTitleStyles>
+                                <RowStyles>
+                                  <SpeedGainStyles
+                                    style={{ width: `${speedGainTimeWidth}%` }}
+                                  >
+                                    Speed Gain Time
+                                  </SpeedGainStyles>
+                                  <RunningSlowStyles
+                                    style={{
+                                      width: `${slowdownLossTimeWidth}%`,
+                                    }}
+                                  >
+                                    Slowdown Loss Time
+                                  </RunningSlowStyles>
+                                </RowStyles>
+                              </RunningSlowStyles>
+                              {/* <RunningFastStyles style={{ width: `${speedGainTimeWidth}%` }}>Speed Gain Time</RunningFastStyles>
                           <RunningSlowStyles style={{ width: `${slowLossTimeWidth}%` }}>Slow Loss Time</RunningSlowStyles> */}
+                            </RowStyles>
+                          </RunningStyles>
+                          <MinorStopStyles
+                            style={{ width: `${minorStopWidth}%` }}
+                          >
+                            Minor Stop
+                          </MinorStopStyles>
                         </RowStyles>
-                      </RunningStyles>
-                      <MinorStopStyles style={{ width: `${minorStopWidth}%` }}>
-                        Minor Stop
-                      </MinorStopStyles>
-                    </RowStyles>
 
-                    <RowStyles>
-                      <RunningAtRateStyles
-                        style={{ width: `${effectiveProducingTimeWidth}%` }}
-                      >
-                        Effective Producing Time
-                      </RunningAtRateStyles>
-                      <QualityLossStyles
-                        style={{ width: `${effectiveQualityLossTimeWidth}%` }}
-                      >
-                        <ColumnTitleStyles>
-                          Effective Quality Loss Time
-                        </ColumnTitleStyles>
                         <RowStyles>
-                          <QualityLossStyles
-                            style={{ width: `${effectiveScrapTimeWidth}%` }}
+                          <RunningAtRateStyles
+                            style={{ width: `${effectiveProducingTimeWidth}%` }}
                           >
-                            Effective Scrap Time
-                          </QualityLossStyles>
+                            Effective Producing Time
+                          </RunningAtRateStyles>
                           <QualityLossStyles
-                            style={{ width: `${effectiveReworkTimeWidth}%` }}
+                            style={{
+                              width: `${effectiveQualityLossTimeWidth}%`,
+                            }}
                           >
-                            Effective Rework Time
+                            <ColumnTitleStyles>
+                              Effective Quality Loss Time
+                            </ColumnTitleStyles>
+                            <RowStyles>
+                              <QualityLossStyles
+                                style={{ width: `${effectiveScrapTimeWidth}%` }}
+                              >
+                                Effective Scrap Time
+                              </QualityLossStyles>
+                              <QualityLossStyles
+                                style={{
+                                  width: `${effectiveReworkTimeWidth}%`,
+                                }}
+                              >
+                                Effective Rework Time
+                              </QualityLossStyles>
+                            </RowStyles>
                           </QualityLossStyles>
+                          <RunningSlowStyles
+                            style={{ width: `${speedLossTimeWidth}%` }}
+                          >
+                            Effective Speed Loss
+                          </RunningSlowStyles>
                         </RowStyles>
-                      </QualityLossStyles>
-                      <RunningSlowStyles
-                        style={{ width: `${speedLossTimeWidth}%` }}
+                      </ProducingStyles>
+                      <DowntimeStyles
+                        style={{
+                          width: `${
+                            (downtimeWidth * 100) / (100 - notScheduledWidth)
+                          }%`,
+                        }}
                       >
-                        Effective Speed Loss
-                      </RunningSlowStyles>
+                        <ColumnTitleStyles>Downtime</ColumnTitleStyles>
+                        <RowStyles>
+                          <PlannedStyles style={{ width: `${plannedWidth}%` }}>
+                            Planned
+                          </PlannedStyles>
+                          <WaitingStyles style={{ width: `${waitingWidth}%` }}>
+                            Waiting
+                          </WaitingStyles>
+                          <UnplannedStyles
+                            style={{ width: `${unplannedWidth}%` }}
+                          >
+                            Unplanned
+                          </UnplannedStyles>
+                          <UnknownStyles style={{ width: `${unknownWidth}%` }}>
+                            Unknown
+                          </UnknownStyles>
+                        </RowStyles>
+                      </DowntimeStyles>
                     </RowStyles>
-                  </ProducingStyles>
-                  <DowntimeStyles style={{ width: `${downtimeWidth}%` }}>
-                    <ColumnTitleStyles>Downtime</ColumnTitleStyles>
-                    <RowStyles>
-                      <PlannedStyles style={{ width: `${plannedWidth}%` }}>
-                        Planned
-                      </PlannedStyles>
-                      <WaitingStyles style={{ width: `${waitingWidth}%` }}>
-                        Waiting
-                      </WaitingStyles>
-                      <UnplannedStyles style={{ width: `${unplannedWidth}%` }}>
-                        Unplanned
-                      </UnplannedStyles>
-                      <UnknownStyles style={{ width: `${unknownWidth}%` }}>
-                        Unknown
-                      </UnknownStyles>
-                    </RowStyles>
-                  </DowntimeStyles>
+                  </ProductionStyles>
+
                   <NotScheduledStyles
                     style={{ width: `${notScheduledWidth}%` }}
                   >
